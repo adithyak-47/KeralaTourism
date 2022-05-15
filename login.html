@@ -49,15 +49,15 @@
             <div class="col-md-4 col-sm-4 col-xs-12"></div>
             <div class="col-md-4 col-sm-4 col-xs-12">
                 <!-- Form starts here -->
-                <form class="form-container">
+                <form class="form-container" action="index.html" onsubmit="return check()">
                     <h3 style="color: white;margin-left: 35%;margin-bottom: 5%;">Login</h3>
                     <div class="form-group">
                       <label for="exampleInputEmail1" style="color: white;">Email</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputPassword1" style="color: white;">Password</label>
-                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      <input type="password" class="form-control" id="exampleInputPassword1" >
                     </div>
                     <div class="form-group form-check">
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -73,5 +73,6 @@
         </div>
       </div>
       <footer style="text-align: center;background-color:#404040;color: white;">© 2022 All Rights Reserved Terms of Use</footer>
+      <script src="validate.js"></script>
 </body>
 </html>
